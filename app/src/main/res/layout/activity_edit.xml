@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:layout_margin="50dp">
+    <EditText
+        android:id="@+id/et_watt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="功率"
+        />
+    <EditText
+        android:id="@+id/et_km"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="里程"
+        />
+    <EditText
+        android:id="@+id/et_kcal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="卡路里"
+        />
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"/>
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查看"/>
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
